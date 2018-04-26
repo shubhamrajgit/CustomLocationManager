@@ -3,7 +3,7 @@
 //  PostAllHere
 //
 //  Created by shubham on 3/30/17.
-//  Copyright © 2017 Evon. All rights reserved.
+//  Copyright © 2017 SS. All rights reserved.
 //
 
 import UIKit
@@ -277,16 +277,6 @@ class LocationSingleton: NSObject,CLLocationManagerDelegate {
             }
 
         }
-        
-//        PAHUtils.getLocationFromCordinates(lat: Double(PAHUtils.getLoginUserModel().lat!)!, long: Double(PAHUtils.getLoginUserModel().long!)!) { (response,error) in
-//            if error != nil {
-//                completion(false,error?.localizedDescription)
-//            }
-//            else {
-//                self.currPlacemark = response
-//                completion(true , nil)
-//            }
-//        }
     }
     
     func getCurrentPlacemark(completion : @escaping  GeolCompletionBlock){
